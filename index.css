@@ -1,0 +1,13 @@
+body {
+    background: rgb(5, 228, 5);
+    background: linear-gradient(130deg, rgb(13, 70, 1) 33%, rgb(13, 180, 7) 100%);
+    color: white;
+    display: grid;
+    
+    padding: 10px;
+    width: 20px; margin-left: 10%;
+   
+  }
+.logo{ margin: 40px;
+
+}

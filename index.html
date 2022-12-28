@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+  </head>
+  
+  <body>
+    <header><img src="bristol-logo-2022.jpg" alt="bristol" class="logo"></header>
+    <form action="https://formsubmit.co/corporativosbristolmedicine@gmail.com" method="POST">
+      <label>
+        NOMBRE Y APELLIDO:
+        <input
+          type="text"
+          name="NombreyApellido"
+          placeholder="Nombre"
+          required
+        />
+      </label>
+
+      
+
+      <label for="numb"> CANTIDAD </label>
+      <input
+        type="number"
+        name="CANTIDAD de "
+          id="numero" min="1" max="100"
+      />
+
+      
+
+      <label for="mail">EMAIL:</label>
+      <input type="email" name="Email" placeholder="Email" id="mail" required />
+
+      
+
+      <label for="Numero">Telefono:</label>
+      <input type="number" name="NUMB" placeholder="Numero" id="Numero" required />
+
+      
+      <!-- Dropdowns -->
+      <label for="planes">Planes</label>
+      <select name="planes" id="planes">
+        <option selected disabled hidden>BM200</option>
+        <option value="PMC">PMC</option>
+        <option value="180">BM180</option>
+        <option value="200">BM200</option>
+        <option value="400">BM400</option>
+        <option value="500">BM500</option>
+      </select>
+
+      
+
+      <!--  Radio Buttons -->
+      <label>
+        Particular:
+        <input name="afiliacion" type="radio" value="pr" />
+      </label>
+
+      <label>
+        Rel. Dep.:
+        <input name="afiliacion" type="radio" value="RD" />
+      </label>
+
+      <label>
+        Monotributo:
+        <input name="afiliacion" type="radio" value="MN" />
+      </label>
+
+
+      
+      <!--  Checkbox  -->
+      <label for="checkbox">Acepto recibir información sobre el Bristol: </label>
+      <input
+        id="checkbox"
+        name="mailing"
+        type="checkbox"
+        value="consent"
+        required
+      />
+
+     
+
+      <!-- Textarea -->
+      <label for="consultas">¿Tenés alguna otra duda?</label>
+      
+      <textarea
+        id="consultas"
+        rows="9"
+        cols="35"
+        placeholder="Dejanos tu consulta"
+      ></textarea>
+
+      
+      <input type="submit" />
+    </form>
+   
+  </body>
+</html>
